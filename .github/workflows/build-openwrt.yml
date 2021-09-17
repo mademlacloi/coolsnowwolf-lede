@@ -74,7 +74,7 @@ jobs:
       run: cd openwrt  && echo "src-git modeminfo https://github.com/koshev-msk/luci-app-modeminfo.git" >> ./feeds.conf.default
       
     - name: add ru feeds
-      run: cd openwrt  && echo "src/gz ru http://openwrt.132lan.ru/packages/packages-19.07/luci/Packages.gz" >> ./feeds.conf.default
+      run: cd openwrt  && echo "src/gz ru http://openwrt.132lan.ru/packages/packages-19.07/luci" >> ./feeds.conf.default
 
     - name: Load custom feeds
       run: |
