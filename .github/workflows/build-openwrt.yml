@@ -61,14 +61,11 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
         
-    - name: add Goldenorb feeds
-      run: cd openwrt  && echo "src-git Goldenorb https://github.com/ROOterDairyman/Goldenorb.git " >> ./feeds.conf.default
-
-    - name: add modeminfo feeds
-      run: cd openwrt  && echo "src-git modeminfo https://github.com/koshev-msk/luci-app-modeminfo.git" >> ./feeds.conf.default
-      
     - name: add luci feeds
-      run: cd openwrt  && echo "src/gz luci http://openwrt.132lan.ru/packages/packages-19.07/luci" >> ./feeds.conf.default
+      run: cd openwrt  && echo "src-git luci https://github.com/ROOterDairyman/Goldenorb.git " >> ./feeds.conf.default
+
+    - name: add luci feeds
+      run: cd openwrt  && echo "src-git luci https://github.com/koshev-msk/luci-app-modeminfo.git" >> ./feeds.conf.default
 
     - name: Load custom feeds
       run: |
