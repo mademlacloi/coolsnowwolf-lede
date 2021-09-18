@@ -16,9 +16,7 @@
 Add a feed source
 echo "src-git Goldenorb https://github.com/ROOterDairyman/Goldenorb.git " >> ./feeds.conf.default
 echo "src-git luci_proto_modemmanager https://github.com/nickberry17/luci-proto-modemmanager.git" >> ./feeds.conf.default
-echo "src-git immortalwrt https://github.com/immortalwrt/packages.git" >> ./feeds.conf.default
 echo "src-git modeminfo https://github.com/koshev-msk/luci-app-modeminfo.git" >> ./feeds.conf.default
-echo "src/gz 123ru_luci http://openwrt.132lan.ru/packages/packages-19.07/luci" >> ./feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
