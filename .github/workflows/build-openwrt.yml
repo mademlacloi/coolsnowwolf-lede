@@ -60,12 +60,6 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        
-    - name: add luci feeds
-      run: cd openwrt  && echo "src-git luci https://github.com/coolsnowwolf/luci" >> ./feeds.conf.default
-
-    - name: add packages feeds
-      run: cd openwrt  && echo "src-git packages https://github.com/coolsnowwolf/packages" >> ./feeds.conf.default
 
     - name: Load custom feeds
       run: |
