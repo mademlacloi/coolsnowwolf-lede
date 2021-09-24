@@ -12,8 +12,8 @@
 name: Update Checker
 
 env:
-  REPO_URL: https://github.com/mademlacloi/openwrt
-  REPO_BRANCH: orangepi-r1plus
+  REPO_URL: https://github.com/orangepi-xunlong/openwrt
+  REPO_BRANCH: master
 
 on:
   workflow_dispatch:
