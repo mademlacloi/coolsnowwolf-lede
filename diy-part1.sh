@@ -14,6 +14,10 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-theme-argon
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
 # echo "src-git luci https://github.com/coolsnowwolf/luci" >> ./feeds.conf.default
 # echo "src-git packages https://github.com/coolsnowwolf/packages" >> ./feeds.conf.default
 
