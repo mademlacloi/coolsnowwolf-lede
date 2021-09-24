@@ -18,6 +18,7 @@ git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app
 git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
 git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-theme-argon
 git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
+git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
 # echo "src-git luci https://github.com/coolsnowwolf/luci" >> ./feeds.conf.default
 # echo "src-git packages https://github.com/coolsnowwolf/packages" >> ./feeds.conf.default
 
