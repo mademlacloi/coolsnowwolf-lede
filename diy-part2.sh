@@ -14,17 +14,22 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
 #git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
-    - name: add folder feeds
-      run: cd openwrt && mkdir -p ./package/lean
+#    - name: add folder feeds
+#      run: 
+cd openwrt && mkdir -p ./package/lean
       
-    - name: add cpufreq feeds
-      run: cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
+#    - name: add cpufreq feeds
+#      run: 
+cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
 
-    - name: add mbim feeds
-      run: cd openwrt/package/lean && git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
+#    - name: add mbim feeds
+#      run: cd openwrt/package/lean && 
+git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
 
-    - name: add accesscontrol feeds
-      run: cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
+#    - name: add accesscontrol feeds
+#      run: cd openwrt/package/lean &&
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
 
-    - name: add zerotier feeds
-      run: cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
+#    - name: add zerotier feeds
+#      run: cd openwrt/package/lean && 
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
