@@ -60,21 +60,7 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        
-    - name: add folder feeds
-      run: cd openwrt && mkdir -p ./package/lean
-      
-    - name: add cpufreq feeds
-      run: cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
 
-    - name: add mbim feeds
-      run: cd openwrt/package/lean && git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
-
-    - name: add accesscontrol feeds
-      run: cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
-
-    - name: add zerotier feeds
-      run: cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
 
     - name: Load custom feeds
       run: |
