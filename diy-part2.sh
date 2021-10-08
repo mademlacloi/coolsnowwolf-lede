@@ -24,7 +24,7 @@
 
 #    - name: add mbim feeds
 #      run: cd openwrt/package/lean && 
-git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
+#git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
 
 #    - name: add accesscontrol feeds
 #      run: cd openwrt/package/lean &&
