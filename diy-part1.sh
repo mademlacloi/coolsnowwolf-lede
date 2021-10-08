@@ -18,7 +18,7 @@
 # echo "src-git luci https://github.com/coolsnowwolf/luci" >> ./feeds.conf.default
 # echo "src-git packages https://github.com/coolsnowwolf/packages" >> ./feeds.conf.default
 
-echo "src/gz 132lan_luci http://openwrt.132lan.ru/packages/packages-19.07/luci" >> ./feeds.conf.default
+#echo "src/gz 132lan_luci http://openwrt.132lan.ru/packages/packages-19.07/luci" >> ./feeds.conf.default
 
 # echo "src-git packages https://github.com/immortalwrt/packages.git" > ./feeds.conf.default
 # echo "src-git luci https://git.openwrt.org/project/luci.git" >> ./feeds.conf.default
