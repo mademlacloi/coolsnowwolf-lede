@@ -16,11 +16,11 @@
 #git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbim
 #    - name: add folder feeds
 #      run: 
-cd openwrt && mkdir -p ./package/lean
+#cd openwrt && mkdir -p ./package/lean
       
 #    - name: add cpufreq feeds
 #      run: 
-cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
+#cd openwrt/package/lean && git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-cpufreq
 
 #    - name: add mbim feeds
 #      run: cd openwrt/package/lean && 
@@ -28,8 +28,8 @@ git clone https://github.com/ROOterDairyman/Goldenorb/tree/master/luci-proto-mbi
 
 #    - name: add accesscontrol feeds
 #      run: cd openwrt/package/lean &&
-git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
+#git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-accesscontrol
 
 #    - name: add zerotier feeds
 #      run: cd openwrt/package/lean && 
-git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
+#git clone https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-zerotier
