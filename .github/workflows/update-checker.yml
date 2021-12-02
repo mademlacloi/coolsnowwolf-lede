@@ -12,8 +12,8 @@
 name: Update Checker
 
 env:
-  REPO_URL: https://github.com/nebulakl/openwrt
-  REPO_BRANCH: orangepi-r1plus
+  REPO_URL: https://github.com/orangepi-xunlong/openwrt
+  REPO_BRANCH: openwrt-21.02
 
 on:
   workflow_dispatch:
